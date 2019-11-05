@@ -2,8 +2,9 @@
   <div>
     <h1>woohooo</h1>
     <Question
-      v-bind:title="currentQuestion.title"
-      v-bind:alternatives="currentQuestion.alternatives"
+      :title="currentQuestion.title"
+      :alternatives="currentQuestion.alternatives"
+      :onComplete="onComplete"
     />
   </div>
 </template>
@@ -29,11 +30,17 @@ export default {
       return this.questions[this.currentQuestionIndex];
     }
   },
-  nextQuestion() {
-    if (this.currentQuestionIndex === questions.length - 1) {
-      this.finished = true;
-    } else {
-      this.currentQuestionIndex++;
+  methods: {
+    nextQuestion: function() {
+      if (this.currentQuestionIndex === questions.length - 1) {
+        this.finished = true;
+      } else {
+        this.currentQuestionIndex++;
+      }
+    },
+    onComplete: function(result) {
+      // eslint-disable-next-line
+      console.log("completedddd", result);
     }
   }
 };
