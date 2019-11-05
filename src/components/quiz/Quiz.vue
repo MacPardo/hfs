@@ -8,7 +8,7 @@
       :onComplete="onComplete"
       :key="currentQuestionIndex"
     />
-    <QuizResults v-else/>
+    <QuizResults v-else :answers="answers" />
   </div>
 </template>
 
@@ -20,20 +20,21 @@ import QuizResults from "./QuizResults";
 export default {
   components: {
     Question,
-    QuizResults,
+    QuizResults
   },
   name: "Quiz",
   data: () => {
     return {
       questions: questions,
       currentQuestionIndex: 0,
-      finished: false
+      finished: false,
+      answers: []
     };
   },
   computed: {
     currentQuestion: function() {
       return this.questions[this.currentQuestionIndex];
-    } 
+    }
   },
   methods: {
     nextQuestion: function() {
@@ -49,6 +50,7 @@ export default {
     onComplete: function(result) {
       // eslint-disable-next-line
       console.log("completedddd", result);
+      this.answers.push(result);
       this.nextQuestion();
     }
   }
