@@ -1,28 +1,21 @@
 <template>
-  <div id="app">
+  <div id="app" class="container">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <h1>testing</h1>
-    <Question v-bind:title="testtitle" v-bind:alternatives="alternatives"/>
+    <Quiz/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import Question from './components/quiz/Question.vue';
+import Quiz from './components/quiz/Quiz.vue';
 
 export default {
   name: 'app',
   components: {
     HelloWorld,
-    Question
+    Quiz
   },
-  data: () => {
-    return {
-      alternatives: [{text: 'wohooo'}],
-      testtitle: 'lalala'
-    }
-  }
 }
 </script>
 
