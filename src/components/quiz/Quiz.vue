@@ -5,6 +5,7 @@
       :title="currentQuestion.title"
       :alternatives="currentQuestion.alternatives"
       :onComplete="onComplete"
+      :key="currentQuestionIndex"
     />
   </div>
 </template>
@@ -28,7 +29,7 @@ export default {
   computed: {
     currentQuestion: function() {
       return this.questions[this.currentQuestionIndex];
-    }
+    } 
   },
   methods: {
     nextQuestion: function() {
@@ -41,6 +42,7 @@ export default {
     onComplete: function(result) {
       // eslint-disable-next-line
       console.log("completedddd", result);
+      this.nextQuestion();
     }
   }
 };
