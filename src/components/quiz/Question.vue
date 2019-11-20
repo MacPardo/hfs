@@ -1,16 +1,25 @@
 <template>
-  <div class="card">
+  <div class="card mt-4 mb-4">
     <div class="card-body">
       <h3>{{ title }}</h3>
       <ul class="list-group">
-        <li v-for="(alt, index) in alternatives" v-bind:key="index" class="list-group-item">
-          <button
+        <li
+          v-for="(alt, index) in alternatives"
+          v-bind:key="index"
+          :class="`list-group-item ${btnClass(index)}`"
+          v-on:click="chooseAlternative(index)"
+        >{{ alt.text }}
+          <!-- <button
             :class="`btn ${btnClass(index)}`"
             v-on:click="chooseAlternative(index)"
-          >{{ alt.text }}</button>
+          >{{ alt.text }}</button> -->
         </li>
       </ul>
-      <button class="btn btn-outline-secondary" :disabled="!choiceMade" v-on:click="complete()">Próxima Pergunta</button>
+      <button
+        class="btn btn-outline-secondary mt-4"
+        :disabled="!choiceMade"
+        v-on:click="complete()"
+      >Próxima Pergunta</button>
     </div>
   </div>
 </template>
@@ -39,13 +48,13 @@ export default {
     },
     btnClass: function(index) {
       if (this.choiceMade && this.alternatives[index].correct) {
-        return "btn-success";
+        return "list-group-item-success";
       } else if (this.choiceMade && this.answer === index) {
-        return "btn-danger";
+        return "list-group-item-danger";
       } else if (this.choiceMade) {
-        return "btn-link";
+        return "list-group-item-link";
       } else {
-        return "btn-outline-primary";
+        return "list-group-item-outline-primary";
       }
     },
     complete: function() {
@@ -55,3 +64,12 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.list-group-item {
+  cursor: pointer;
+}
+.list-group-item:hover:not(.list-group-item-success):not(.list-group-item-danger) {
+    background-color: #f5f5f5;
+}
+</style>
