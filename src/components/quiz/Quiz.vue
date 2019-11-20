@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1>woohooo</h1>
     <Question
       v-if="!finished"
       :title="currentQuestion.title"

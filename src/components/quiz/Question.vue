@@ -2,8 +2,8 @@
   <div class="card">
     <div class="card-body">
       <h3>{{ title }}</h3>
-      <ul>
-        <li v-for="(alt, index) in alternatives" v-bind:key="index">
+      <ul class="list-group">
+        <li v-for="(alt, index) in alternatives" v-bind:key="index" class="list-group-item">
           <button
             :class="`btn ${btnClass(index)}`"
             v-on:click="chooseAlternative(index)"
