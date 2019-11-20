@@ -7,7 +7,7 @@
       :onComplete="onComplete"
       :key="currentQuestionIndex"
     />
-    <QuizResults v-else :answers="answers" />
+    <QuizResults v-else :answers="answers" :restartQuiz="restartQuiz" />
   </div>
 </template>
 
@@ -51,6 +51,13 @@ export default {
       console.log("completedddd", result);
       this.answers.push(result);
       this.nextQuestion();
+    },
+    restartQuiz: function() {
+      // eslint-disable-next-line
+      console.log("hellooooo");
+      this.finished = false;
+      this.currentQuestionIndex = 0;
+      this.answers = [];
     }
   }
 };

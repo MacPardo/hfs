@@ -12,6 +12,7 @@
         <span class="font-weight-bolder text-success">{{ correctCount }}</span> de
         <span class="font-weight-bolder text-primary">{{ questionCount }}</span>
       </h3>
+      <button class="btn btn-outline-secondary mt-4" v-on:click="restartQuiz()">Tente de novo!</button>
     </div>
   </div>
 </template>
@@ -20,7 +21,8 @@
 export default {
   name: "QuizResults",
   props: {
-    answers: Array
+    answers: Array,
+    restartQuiz: Function
   },
   computed: {
     questionCount: function() {
