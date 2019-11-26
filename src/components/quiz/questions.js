@@ -1,25 +1,25 @@
 export default [{
-  title: "Question 1",
+  title: "Quem eram os jesuítas?",
   alternatives: [{
-    text: "Alternative 1",
+    text: "Os indígenas que habitavam a região",
     correct: false
   }, {
-    text: "Alternative 2",
+    text: "Os caçadores de índios",
     correct: false
   }, {
-    text: "Alternative 3",
+    text: "Os padres que catequizavam os índios",
     correct: true
   }]
 }, {
-  title: "Question 2",
+  title: "Como os povos das missões se sustentavam",
   alternatives: [{
-    text: "alt 1",
+    text: "Pelo comércio com os impérios",
     correct: false
   }, {
-    text: "alt 2",
-    correct: false
-  }, {
-    text: "alt 3",
+    text: "Pela produção agrícola",
     correct: true
+  }, {
+    text: "Pela caça de animais",
+    correct: false
   }]
 }];
