@@ -7,6 +7,7 @@
       <div class="text-left">
 
         <Origem />
+        <SetePovosdasMissoes />
         <OrganizacaoUrbanistica />
         <OrganizacaoEconomica />
         <GuerraGuaranitica />
@@ -21,6 +22,7 @@
 <script>
 import Quiz from "./components/quiz/Quiz.vue";
 import Origem from "./components/Origem";
+import SetePovosdasMissoes from "./components/SetePovosdasMissoes";
 import OrganizacaoUrbanistica from "./components/OrganizacaoUrbanistica";
 import OrganizacaoEconomica from "./components/OrganizacaoEconomica";
 import GuerraGuaranitica from "./components/GuerraGuaranitica";
@@ -31,6 +33,7 @@ export default {
   components: {
     Quiz,
     Origem,
+    SetePovosdasMissoes,
     OrganizacaoUrbanistica,
     OrganizacaoEconomica,
     GuerraGuaranitica,
