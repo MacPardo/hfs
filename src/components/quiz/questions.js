@@ -37,7 +37,7 @@ export default [{
 }, {
   title: "Qual era o principal objetivo dos jesuítas?",
   alternatives: [{
-    text: "Expalhar a cultura européia nos povos indígenas",
+    text: "Espalhar a cultura européia nos povos indígenas",
     correct: true
   }, {
     text: "Escravizar os indigenas",
