@@ -14,7 +14,7 @@
         <p>Em 1682, os jesuítas e os indígenas, começaram a retornar à margem esquerda do rio 
           Uruguai, às terras do atual Rio Grande do Sul, fundando os <b>Sete Povos das Missões</b>. 
           Foram eles:</p>
-        <p>● São Francisco de Borja (1682); - pelo Padre Francisco Garcia</p>
+        <p>● São Francisco de Borja (1682) - pelo Padre Francisco Garcia;</p>
         <p>● São Nicolau (1687);</p>
         <p>● São Luiz Gonzaga (1687);</p>
         <p>● São Miguel Arcanjo (1687) foi a capital;</p>
