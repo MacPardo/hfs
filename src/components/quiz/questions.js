@@ -4,10 +4,10 @@ export default [{
     text: "Os indígenas que habitavam a região",
     correct: false
   }, {
-    text: "Os caçadores de índios",
+    text: "Os caçadores de indígenas",
     correct: false
   }, {
-    text: "Os padres que catequizavam os índios",
+    text: "Padres que pertenciam à Companhia de Jesus",
     correct: true
   }]
 }, {
@@ -25,7 +25,7 @@ export default [{
 }, {
   title: "Qual era a principal construção das missões?",
   alternatives: [{
-    text: "A enfermaria",
+    text: "A praça",
     correct: false
   }, {
     text: "A escola",
@@ -37,10 +37,10 @@ export default [{
 }, {
   title: "Qual era o principal objetivo dos jesuítas?",
   alternatives: [{
-    text: "Espalhar a cultura européia nos povos indígenas",
+    text: "Evangelizar e espalhar a cultura europeia aos povos indígenas",
     correct: true
   }, {
-    text: "Escravizar os indigenas",
+    text: "Escravizar os indígenas",
     correct: false
   }, {
     text: "Montar um exército",
