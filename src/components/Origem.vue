@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-lg-12">
         <h1>Origem</h1>
-        <hr />
+        
       <p>Durante a colonização do Brasil pelos portugueses, a ordem Companhia de Jesus, 
         conhecidos como Jesuítas, cumpriu um papel de destaque na organização social da colônia.
         Os jesuítas liderados por Manoel da Nóbrega chegaram à colônia Brasil em 1549. A principal 
@@ -27,7 +27,7 @@
         ritmos e as disciplinas de trabalho que impunham os europeus. Esse processo ficou também 
         conhecido como aculturação.</p>
 
-      <hr />
+      
       </div>
     </div>
   </div>
