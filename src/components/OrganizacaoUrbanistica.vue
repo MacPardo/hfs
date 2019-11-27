@@ -26,10 +26,9 @@
       <div class="col-lg-12">
         <p>Na enfermaria, localizada ao lado do cemitério, atendiam-se os doentes em
           estado mais grave ou que apresentavam perigo de <b>contágio</b>.</p>
-        <p>Dentre as doenças contraídas dos missionários 
-          estão a gripe, o sarampo e a varíola, que vitimaram, muitas vezes, sociedades indígenas 
-          inteiras, em razão dos indígenas não terem imunidade natural a estes males, ou, ainda, 
-          pela imposição aos indígenas à nova maneira de viver.</p>
+        <p>Dentre as doenças contraídas dos padres jesuítas estão a gripe, o sarampo e a varíola, 
+          que vitimaram muitos indígenas em razão deles não terem imunidade natural a estes males, 
+          ou, ainda, pela imposição aos indígenas à nova maneira de viver.</p>
         <p>Os indígenas, eram enterrados no cemitério, os jesuítas ficavam enterrados na igreja, 
           junto ao alto mor. Atrás da igreja, os padres mantinham a horta, o pomar e o jardim.</p>
       </div>
