@@ -11,15 +11,51 @@ export default [{
     correct: true
   }]
 }, {
-  title: "Como os povos das missões se sustentavam",
+  title: "Como os povos das missões se sustentavam?",
   alternatives: [{
     text: "Pelo comércio com os impérios",
     correct: false
   }, {
-    text: "Pela produção agrícola",
+    text: "Pela produção de alimentos",
     correct: true
   }, {
     text: "Pela caça de animais",
+    correct: false
+  }]
+}, {
+  title: "Qual era a principal construção das missões?",
+  alternatives: [{
+    text: "A enfermaria",
+    correct: false
+  }, {
+    text: "A escola",
+    correct: false
+  }, {
+    text: "A igreja",
+    correct: true
+  }]
+}, {
+  title: "Qual era o principal objetivo dos jesuítas?",
+  alternatives: [{
+    text: "Expalhar a cultura européia nos povos indígenas",
+    correct: true
+  }, {
+    text: "Escravizar os indigenas",
+    correct: false
+  }, {
+    text: "Montar um exército",
+    correct: false
+  }]
+}, {
+  title: "Por que as missões foram destruídas?",
+  alternatives: [{
+    text: "Porque os jesuítas ordenaram",
+    correct: false
+  }, {
+    text: "Porque os portugueses queriam expulsar os povos das missões de seu novo território",
+    correct: true
+  }, {
+    text: "Foram destruídas por uma catástrofe natural",
     correct: false
   }]
 }];
