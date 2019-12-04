@@ -24,9 +24,12 @@
           para tomar chimarrão com a permissão dos jesuítas, pois foi provado que não viciava.</p>
       </div>
       <div class="col-lg-6">
-        <img class="img-fluid rounded-lg" src="../assets/imagensIndigenas.jpg" alt="">
-        <span style="font-style: italic; font-size: 14px"><b>Obras de artes produzidas pelos indígenas 
+        <div style="text-align: center">
+          <span style="font-size: 14px"><b>Obras de artes produzidas pelos indígenas 
           com a extração da madeira</b></span>
+          <img class="img-fluid rounded-lg" src="../assets/imagensIndigenas.jpg" alt="">
+          <span style="font-size: 12px"><b>Fonte: http://museudasmissoes.blogspot.com/p/fotos.html</b></span>
+        </div>
       </div>
       <div class="col-lg-6">
         <p>A madeira era extraída para o uso do povo e com ela foram feitas muitas
