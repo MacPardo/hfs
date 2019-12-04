@@ -17,11 +17,14 @@
           aprendiam "prendas domésticas". </p>
       </div>
       <div class="col-lg-6">
-        <img class="img-fluid rounded-lg" src="../assets/missao.jpg" alt="">
-        <span style="font-style: italic; font-size: 14px"><b>Maquete da organização das reduções</b> - 
-          Identificação dos locais: 1. praça; 2. igreja; 
-          3. colégio; 4. oficinas; 5. cemitério; 6. hospital; 7. habitações; 8. capela;
-          9. horta; 10. moinho; 11. olaria; 12. curral; 13. lavoura.</span>
+        <div style="text-align: center">
+          <span style="font-size: 14px"><b>Maquete da organização das reduções</b><br>
+            Identificação dos locais: 1. praça; 2. igreja; 
+            3. colégio; 4. oficinas; 5. cemitério; 6. hospital; 7. habitações; 8. capela;
+            9. horta; 10. moinho; 11. olaria; 12. curral; 13. lavoura</span>
+          <img class="img-fluid rounded-lg" src="../assets/missao.jpg" alt="">
+          <span style="font-size: 12px"><b>Fonte: http://penta2.ufrgs.br/rgs/historia/setePovosMissoes.html</b></span>
+        </div>
       </div>
       <div class="col-lg-12">
         <p>Na enfermaria, localizada ao lado do cemitério, atendiam-se os doentes em
