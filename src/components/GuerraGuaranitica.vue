@@ -23,9 +23,11 @@
           em 1756 e a diminuição da influência dos jesuítas na região sul do Brasil.</p>
       </div>
       <div class="col-lg-6">
-        <img class="img-fluid rounded-lg" src="../assets/tratadoMadri.jpg" alt="">
-        <span style="font-style: italic; font-size: 14px"><b>Mapa demonstrando a delimitação do 
-          Tratado de Madri.</b></span>
+        <div style="text-align: center">
+          <span style="font-size: 14px"><b>Delimitação do Tratado de Madri</b></span>
+          <img class="img-fluid rounded-lg" src="../assets/tratadoMadri.jpg" alt="">
+          <span style="font-size: 12px"><b>Fonte: https://www.coladaweb.com/historia-do-brasil/tratado-de-madri</b></span>
+        </div>
       </div>
     </div>
   </div>
