@@ -6,9 +6,11 @@
         <hr />
       </div>
       <div class="col-lg-6">
+        <div style="text-align: center">
+        <span style="font-size: 14px"><b>Localização dos sete povos das missões</b></span>
         <img class="img-fluid rounded-lg" src="../assets/setePovosMissoes.jpg" alt="">
-        <span style="font-style: italic; font-size: 14px"><b>Mapa com a localização dos sete 
-          povos das missões.</b></span>
+        <span style="font-size: 12px"><b>Fonte: http://www.invinoviajas.com/2015/05/vinicola-malgarim-sao-borja-sul-do/</b></span>
+        </div>
       </div>
       <div class="col-lg-6">
         <p>Em 1682, os jesuítas e os indígenas, começaram a retornar à margem esquerda do rio 
